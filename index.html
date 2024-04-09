@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <title>Coalition Technologies Test</title>
+</head>
+
+<body>
+<!--First Page-->
+    <div class="top-page">
+        <img src="images/background.png" class="background">
+        <div class="logo">
+            <a href="#"><img src="/images/logo.png"></a>
+        </div>
+        <div class="nav-bar-desktop">
+            <a href="#history" class="top-history"><i>01. HISTORY</i></a>
+            <a href="#" class="top-team"><i>02. TEAM</i></a>
+        </div>
+    </div>
+
+
+
+<!--Second Page-->
+    <div class="middle-nav-bar">
+       
+        <img src="./images/Logo_wMountains.png" class="middle-logo">
+        <div class="middle-list">
+            <a href="#" class="middle-history"><i>01. HISTORY</i></a>
+            <a href="#" class="middle-team"><i>02. TEAM</i></a>
+
+
+            <div class="middle-back" id="history">
+                <img src="./images/background_history.png" class="middle-bg">
+            </div>
+            <div class="history-img">
+                <img src="images/01history.png">
+            </div>
+                <div class="para-lorem">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat
+                        rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit
+                        tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis
+                        hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue</p>
+                </div>
+                <div class="middle-page-bottom">
+                    <div class="carosoul-img">
+                    <img src="images/thumb1.png" class="slides">
+                    <img src="images/thumb2.png" class="slides">
+                    <img src="images/thumb1.png" class="slides">
+                    <img src="images/thumb2.png" class="slides">
+                </div>
+                <div class="carosoul-img-btn">
+                    <button class="btn1" onclick="goprev()">
+                    </button>
+                        <button class="btn1" onclick="gonext()"></button>
+                        <button class="btn1"></button>
+                </div>
+                <div>
+                    <button class="left-btn" onclick="goprev()">&lt</button>
+                    <button class="right-btn" onclick="gonext()">&gt</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+<!--Third page-->
+<div class="third-page">
+
+    </div>
+<div class="third-nav-bar">
+<img src="images/02climb.png" class="climb-img">
+<p>Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+</div>
+<div class="third-mountain-nav">
+    <img src="images/tab1.png" class="third-page-bg">
+    <div class="third-mountain-list">
+<li><a href="#his" class="mountain-1" id="m1" onclick="myFunctionm1()">MOUNTAIN 1</a></li>
+<li><a href="#his" class="mountain-2" id="m2" onclick="myFunctionm2()"> MOUNTAIN 2</a></li>
+    </div>
+</div>
+<div class="schedule" id="sched">
+
+</div>
+<footer>
+    <div class="footer">
+    <img src="images/footerLogo.png" class="footer-logo">
+    <i class="copy">COPYRIGHT 2016. ALL RIGHTS RESERVED.</i>
+    </div>
+</footer> 
+
+<script src="scripts/index.js"></script>
+</body>
+
+</html>
