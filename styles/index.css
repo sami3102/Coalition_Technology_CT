@@ -273,7 +273,7 @@ html{
     position: absolute;
     width: 30vw;
     height: -40vh;
-    background-image: url(/images/schedule-content.png);
+    background-image: url(images/schedule-content.png);
     background-repeat: no-repeat;
     margin: 230px 0px 0px 300px;
     overflow: hidden;
