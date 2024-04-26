@@ -446,7 +446,7 @@ html{
     }
     #sched{
         position: absolute;
-        width: 100vw;
+        width: 80vw;
         background-repeat: no-repeat;
         margin: 80px 0px 0px 25px;
         overflow: hidden;
